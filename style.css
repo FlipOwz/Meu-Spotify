@@ -3,6 +3,7 @@ body {
 }
 
 .sidebar{
+    background-color: #000;
     position: fixed;
     top: 0;
     left: 0;
@@ -46,4 +47,83 @@ body {
     font-weight: 600;
     font-size: 14px;
     font-family: "DM Sans", sans-serif;
+}
+
+.sidebar_navigation_b {
+    margin-top: 15px;
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 5px 0 0 0;
+
+}
+
+.titulo a {
+    color:#B3B3B3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    
+}
+
+.titulo .fa-plus {
+    margin: 0 0 0 90px;
+    color:#B3B3B3;
+
+}
+
+.sidebar_interna {
+    margin-top: 15px;
+    background-color: #272727;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    width: 100%;
+}
+
+.sidebar_interna h1 {
+    color:rgb(199, 199, 198);
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    padding: 0 16px 0 0;
+}
+
+.sidebar_interna p {
+    color:rgb(199, 199, 198);
+    font-size: 10px; 
+    padding: 16px 16px 0 0;
+}
+
+.sidebar_interna button {
+    margin: 25px 0 20px 0;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+
+.cookies {
+    margin: 60px 0 60px 0;
+    color: #f1f1f1;
+    font-size: 10px;
+}
+
+.linguagem {
+    margin: 0 0 100px 0;
+    background-color: #121212;
+    color: #f1f1f1;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    border-color: #f1f1f1;
+    border-width: 1px;
 }
