@@ -24,7 +24,6 @@
                     <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify">
                 </a>
                 </div>
-                <div>
                 <ul>
                     <li>
                         <a href="">
@@ -39,35 +38,33 @@
                         </a>
                     </li>
                 </ul>
-            </div>
         </nav>
-        <nav class="sidebar_navigation_b">
-                <ul>
-                    <div class="titulo">
-                    <a href="">
+
+        <div class="sidebar__library">
+            <div class="library__content">
+                    <button class="library__button">
                         <span class="fa fa-book"></span>
                         <span>Sua Biblioteca</span>
-                    </a>
+                    </button>
                        <span class="fa fa-plus"></span>
                     </div>
-                    <div>
-                     <ul>
-                      <nav class="sidebar_interna">
-                        <a href="">
-                            <h1>Crie sua primeira Playlist</h1>
-                            <p>É fácil, vamos te ajudar</p>
-                            <button>Criar Playlist</button>
-                        </a>
-                      </nav>
-                       <p class="cookies">Cookies</p>
-                       <button class="linguagem">
+                    <section class="section-playlist">
+                      <div class="section-playlist__content">
+                        <span class="text title">Crie sua Playlist</span>
+                        <span class="text subtitle">É fácil, vamos te ajudar</span>
+                        <button class="section-playlist__button">Criar Playlist</button>
+                      </div>
+                    </section>
+                    <div class="cookies">
+                       <a href="">Cookies</a>
+                    </div>  
+                    <div class="languages"> 
+                       <button class="languages__button">
                         <span class="fa fa-globe"></span>
-                        Português do Brasil
+                        <span>Português do Brasil</span>
                        </button>
-                     </ul>
                     </div>
-                </ul>
-        </nav>
+            </div>
     </div>
 </body>
 </html>
