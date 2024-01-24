@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Felipe</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
     integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" 
     crossorigin="anonymous" />
@@ -66,5 +68,42 @@
                     </div>
             </div>
     </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header__navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="src/assets/icons/small-left.png" alt="Seta para voltar">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="src/assets/icons/small-right.png" alt="Seta para avançar">
+                    </button>
+
+                    <div class="header__search">
+                        <img src="src/assets/icons/search.png" alt="">
+                        <input type="text" id="search-input" maxlength="800" placeholder="O que você procura?"/>
+                    </div>
+
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </main>
+
+    <footer class="banner">
+        <div class="text">
+            <p>TESTAR O PREMIUM DE GRAÇA</p>
+            <p>Inscreva-se para curtir música ilimitada só com anguns anúncios. Não precisa de cartão de crédito.</p>
+        </div>
+        <div class="banner_button">
+            <button class="footer_button">Inscreva-se grátis</button>
+        </div>
+    </footer>
+    
 </body>
+
 </html>
