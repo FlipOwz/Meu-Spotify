@@ -150,9 +150,8 @@ body {
 }
 
 .section-playlist__content .section-playlist__button:hover {
-    border: 2px solid #242424;
-    border-radius: 50%;
-
+    -ms-transform: scale(1.3);
+    transform: scale(1.2);
 }
 
 .sidebar .cookies {
@@ -184,8 +183,8 @@ body {
 }
 
 .languages__button:hover {
-    background: linear-gradient(to right, #3d03db,#06b5bb, #c00c8a);
-    color: #121212;
+    background: linear-gradient(to right, #018112,#00b618, #018112);
+    color: #000;
 }
 
 .banner {
